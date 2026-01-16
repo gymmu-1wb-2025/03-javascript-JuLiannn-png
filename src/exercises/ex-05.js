@@ -1,4 +1,4 @@
-const bodyheight = Number(process.argv);
+const bodyheight = Number(process.argv[2]);
 const talentScore = 243 - bodyheight;
 
 if (talentScore < 50) {
@@ -11,4 +11,6 @@ if (talentScore < 50) {
 	);
 } else if (70 <= talentScore) {
 	console.log("Du wirst im Volleyball nicht glücklich werden.");
+} else {
+	console.log("Geh ins Gym");
 }
