@@ -1,6 +1,6 @@
 const number = Number(process.argv[2]);
 const secondNumber = Number(process.argv[3]);
-const solution = number % 3;
+const solution = number / number;
 
 if (solution === 0) {
 	console.log("Ja ist teilbar");
