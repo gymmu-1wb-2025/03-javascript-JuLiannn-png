@@ -2,7 +2,7 @@ const number = Number(process.argv[2]);
 const secondNumber = Number(process.argv[3]);
 const solution = number / number;
 
-if (solution === 0) {
+if (solution === 1) {
 	console.log("Ja ist teilbar");
 } else {
 	console.log("Ist nicht teilbar");
